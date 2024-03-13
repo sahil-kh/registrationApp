@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const dbUri =
-  "mongodb+srv://sahilDb:sahil123@registrationdb.wsycujp.mongodb.net/?retryWrites=true&w=majority&appName=registrationDb";
+  "mongodb+srv://sahilDb:sahil456@registrationdb.wsycujp.mongodb.net/?retryWrites=true&w=majority&appName=registrationDb";
 const path = require("path");
 const User = require("./models/user");
 const port = 3001;
