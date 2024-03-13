@@ -10,7 +10,6 @@ const port = 3001;
 //database connection
 mongoose
   .connect(dbUri, {
-    useNewUrlParser: true,
     useUnifiedTopology: true,
   })
   .then(() => {
