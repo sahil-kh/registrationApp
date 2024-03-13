@@ -31,7 +31,7 @@ app.use(express.urlencoded({ extended: true }));
 //routes
 
 app.get("/", (req, res) => {
-  res.send("home");
+  res.render("home");
 });
 app.get("/register", (req, res) => {
   res.render("register");
